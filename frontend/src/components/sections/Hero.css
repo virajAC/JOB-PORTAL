@@ -1,0 +1,92 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 92vh;
+}
+
+/* Right green shape */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: -260px;
+  right: -350px;
+  width: 750px;
+  height: 1000px;
+  background-color: #053331;
+  transform: rotate(34deg);
+  border-bottom-left-radius: 150px;
+  z-index: -1;
+}
+
+/* Black rectangle */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 120px;
+  left: 65%;
+  width: 225px;
+  height: 300px;
+  background-color: #000;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.hero-reactangle {
+  position: absolute;
+  top: 120px;
+  left: 65%;
+  width: 225px;
+  height: 300px;
+  transform: rotate(15deg);
+  background-color: #daebfb;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.hero-text {
+  position: relative;
+  margin-top: 30px;
+  padding: 0 5%;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.hero-subtext {
+  margin: 5px 0 20px;
+  font-weight: 100;
+  font-size: 18px;
+  color: rgb(2, 13, 13);
+}
+
+.searchbox {
+  padding: 15px 125px;
+  margin: 0 60px;
+  background-color: #1a4c4972;
+  border-radius: 30px;
+  border: none;
+}
+
+.subhero {
+  margin: 0 60px;
+  margin-top: 7.5px;
+}
+
+.search-tags {
+  display: flex;
+  
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tag {
+  padding: 10px 15px;
+  background-color: #daebfb;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.break {
+  flex-basis: 100%;
+}
