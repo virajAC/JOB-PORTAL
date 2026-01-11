@@ -10,6 +10,7 @@ frontend/dist/
 # Environment files
 backend/.env
 frontend/.env
+.env
 
 # Logs
 *.log
@@ -17,7 +18,7 @@ logs/
 npm-debug.log*
 yarn-error.log*
 
-# IDE / OS files
+# IDE / OS
 .vscode/
 .idea/
 .DS_Store
