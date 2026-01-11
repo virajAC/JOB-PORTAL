@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import "./Signup.css";
 
 const Signup = () => {
@@ -34,4 +34,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signup */
