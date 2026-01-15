@@ -1,4 +1,4 @@
-.sign-up {
+.login {
   min-height: 92vh;
   display: flex;
   justify-content: center;
@@ -6,42 +6,44 @@
   background-color: #ffffff;
 }
 
-.sign-up {
+.login {
   width: 100vw;
   display: flex;
   flex-direction: column;
 }
 
-.signup-title {
+.login-title {
   text-align: center;
   font-size: 32px;
   margin-bottom: 30px;
 }
 
-.sign-up-flex {
+.login-flex {
   display: flex;
   justify-content: center;
   gap: 0;
 }
 
-.signup-box1,
-.signup-box2 {
+.login-box1,
+.login-box2 {
   height: 450px;
   width: 350px;
   border-radius: 12px;
 }
 
-.signup-box1 {
+.login-box1 {
   background-color: #053331;
   padding: 30px;
   color: yellow;
 }
 
-.signup-text1 {
+.login-text1 {
   text-align: left;
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+
 
 .username {
   display: flex;
@@ -57,6 +59,6 @@
   color: white;
 }
 
-.signup-box2 {
+.login-box2 {
   background-color: #053331d5;
 }

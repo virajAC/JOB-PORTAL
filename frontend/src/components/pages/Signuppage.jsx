@@ -1,7 +1,7 @@
-/*import React from 'react'
-import "./Signup.css";
+import React from 'react'
+import "./Signuppage.css";
 
-const Signup = () => {
+const Signuppage = () => {
   return (
        <div className="sign-up">
       <h4 className="signup-title">SIGN UP FORM</h4>
@@ -34,4 +34,4 @@ const Signup = () => {
   )
 }
 
-export default Signup */
+export default Signuppage

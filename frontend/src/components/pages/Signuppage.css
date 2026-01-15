@@ -1,4 +1,4 @@
-/*.sign-up {
+.sign-up {
   min-height: 92vh;
   display: flex;
   justify-content: center;
@@ -43,6 +43,8 @@
   margin-bottom: 40px;
 }
 
+
+
 .username {
   display: flex;
   flex-direction: column;
@@ -58,6 +60,5 @@
 }
 
 .signup-box2 {
-  background-color: rgb(109, 77, 77);
+  background-color: #053331d5;
 }
-*/
