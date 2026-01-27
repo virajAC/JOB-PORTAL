@@ -12,3 +12,5 @@ exports.register = async (req , res) => {
         
     }
 }
+
+export default User
