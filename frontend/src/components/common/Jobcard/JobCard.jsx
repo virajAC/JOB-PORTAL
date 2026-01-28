@@ -5,7 +5,7 @@ const JobCard = ({ job }) => {
   return (
     <div className="job-card">
       <div className="job-card-top">
-        {/* Category Pill */}
+        
         <span className="job-category-tag" style={{ backgroundColor: job.color }}>
            {job.icon} {job.category}
         </span>
@@ -13,7 +13,7 @@ const JobCard = ({ job }) => {
       
       <h3 className="job-title">{job.title}</h3>
       
-      {/* Improved Location and Type Row */}
+      
       <div className="job-location-row">
         <div className="location-group">
           <span className="location-icon">📍</span>
@@ -31,7 +31,7 @@ const JobCard = ({ job }) => {
           <p className="company-name">{job.company}</p>
         </div>
         <div className="company-logo-container">
-           {/* FIX: Prevents the empty string console error */}
+          
            {job.logo ? (
              <img src={job.logo} alt={`${job.company} logo`} className="company-logo" />
            ) : (

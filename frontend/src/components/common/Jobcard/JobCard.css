@@ -1,4 +1,4 @@
-/* Container Grid */
+
 .jobs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -6,7 +6,6 @@
   padding: 20px;
 }
 
-/* Individual Card */
 .job-card {
   background: #fff;
   border-radius: 20px;
@@ -19,7 +18,7 @@
 }
 
 
-/* Category Tag */
+
 .job-category-tag {
   padding: 6px 15px;
   border-radius: 10px;
@@ -35,7 +34,7 @@
   font-weight: 700;
 }
 
-/* Improved Location & Type Styles */
+
 .job-location-row {
   display: flex;
   align-items: center;
@@ -56,15 +55,15 @@
 }
 
 .job-type-badge {
-  background-color: #eef5fb; /* Matches your footer light blue */
-  color: #1a73e8;            /* Professional blue */
+  background-color: #eef5fb; 
+  color: #1a73e8;            
   padding: 4px 12px;
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 600;
 }
 
-/* Footer Section */
+
 .job-card-footer {
   display: flex;
   justify-content: space-between;
@@ -86,7 +85,7 @@
   margin: 0;
 }
 
-/* Logo Handling */
+
 .company-logo-container {
   width: 45px;
   height: 45px;
