@@ -2,12 +2,11 @@ import express from 'express'
 import authrouter from './routes/routes.js'
 import mongoose from 'mongoose'
 
-const DB_PASSWORD = "viraj"
-const DB_USERNAME = 'DZ-FC7_r.WDfJgj';
+const DB_PASSWORD = ""
+const DB_USERNAME = '';
 const password = encodeURIComponent(DB_PASSWORD);
 
 // String literal
-// const MONGO_URI = `mongodb+srv://${DB_USERNAME}:${password}@mern-mmamc.iobwd2h.mongodb.net/`;
 const MONGO_URI = "mongodb+srv://${DB_USERNAME}:${password}@viraj.fvheojc.mongodb.net/";
 
 // IIFE
