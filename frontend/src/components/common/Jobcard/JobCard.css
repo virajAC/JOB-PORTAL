@@ -1,0 +1,112 @@
+/* Container Grid */
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+
+/* Individual Card */
+.job-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+
+/* Category Tag */
+.job-category-tag {
+  padding: 6px 15px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.job-title {
+  font-size: 1.25rem;
+  margin: 20px 0 10px 0;
+  color: #111;
+  font-weight: 700;
+}
+
+/* Improved Location & Type Styles */
+.job-location-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.location-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.divider {
+  color: #ddd;
+}
+
+.job-type-badge {
+  background-color: #eef5fb; /* Matches your footer light blue */
+  color: #1a73e8;            /* Professional blue */
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Footer Section */
+.job-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; 
+  border-top: 1px solid #f8f8f8;
+  padding-top: 20px;
+}
+
+.posted-on {
+  font-size: 0.8rem;
+  color: #999;
+  margin: 0;
+}
+
+.company-name {
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+/* Logo Handling */
+.company-logo-container {
+  width: 45px;
+  height: 45px;
+}
+
+.company-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.logo-placeholder {
+  width: 45px;
+  height: 45px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: #bbb;
+}

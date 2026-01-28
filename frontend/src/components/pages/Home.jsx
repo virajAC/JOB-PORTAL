@@ -1,12 +1,16 @@
 import React from 'react'
 import Hero from '../sections/hero'
-import HowItWorks from '../sections/HowItWork'
+import Jobcategory from '../sections/Jobcategory'
+import FeaturedJobs from '../sections/FeaturedJobs'
+
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <HowItWorks/>
+      <Jobcategory/>
+      <FeaturedJobs/>
+      
       
     </div>
   )

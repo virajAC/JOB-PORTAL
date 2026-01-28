@@ -1,0 +1,96 @@
+.jobcategory-section {
+  padding: 80px 0;
+  background-color: #f8fbfb; 
+  display: flex;
+  justify-content: center;
+}
+
+.jobcategory-inner {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.jobcategory-title {
+  font-size: 2.5rem;
+  color: #053331;
+  margin-bottom: 10px;
+}
+
+
+.jobcategory-header-bottom {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  width: 100%;
+}
+
+.jobcategory-header-bottom p {
+  color: #666;
+  margin: 0;
+}
+
+.all-category-search-button {
+  background-color: #e0f2f1; 
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.all-category-search-button p {
+  color: #053331;
+  font-weight: 600;
+  margin: 0;
+}
+
+.all-category-search-button:hover {
+  background-color: #053331;
+}
+
+.all-category-search-button:hover p {
+  color: white;
+}
+.category-cards {
+  display: flex;
+  
+  gap: 25px;
+  scroll-behavior: smooth;
+}
+.category-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  border: 2px solid #eee;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px; /* Important: prevents cards from shrinking */
+  flex-shrink: 0;
+}
+.category-card h3 {
+  font-size: 1.2rem;
+  color: #053331;
+  margin-bottom: 12px;
+}
+.category-positions {
+  font-size: 0.9rem;
+  color: #053331;
+  font-weight: 500;
+  background-color: #f0fdfa; /* Light mint background */
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+.slider-container {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  padding-bottom: 20px;
+  cursor: grab;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider-container::-webkit-scrollbar {
+  display: none;
+}

@@ -1,18 +1,71 @@
 .footer {
-  
-  width: 100%;
-  padding: 20px 0;
-  background-color: #053331; 
-  color: blanchedalmond;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  /*box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light-blue);
+    color: var(--text-dark);
 }
 
-.footer p {
-  margin: 0;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+    flex-wrap: wrap;
 }
 
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 30px;
+}
+
+.brand-col {
+    flex: 1.5;
+}
+
+/* Logo Styling */
+.logo { font-size: 24px; font-weight: bold; margin-bottom: 20px; }
+.logo span { color: var(--brand-blue); }
+
+.call-us { font-weight: bold; margin-bottom: 5px; }
+
+.phone-number {
+    font-size: 22px;
+    color: var(--brand-blue);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Typography */
+h3 { font-size: 16px; margin-bottom: 20px; }
+
+ul { list-style: none; padding: 0; }
+
+ul li { margin-bottom: 12px; }
+
+ul li a, address {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.6;
+    font-style: normal;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    background-color: #053331;
+    padding: 40px 10%;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+
+.social-icons a {
+    margin-left: 15px;
+    color: var(--text-dark);
+    text-decoration: none;
+}
